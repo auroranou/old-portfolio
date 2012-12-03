@@ -24,26 +24,31 @@
 </head>
 <body {% if page.class %}class="{{page.class}}"{% endif %}  onload="prettyPrint()">
 <div class="nav">
-     <div class="home">
-      <a href="{{base}}/" {% if page.class == nil %}class='active'{% endif %}>Home<!-- <img src="{{base}}/img/home.png" height="150" width="150" alt=""/> --></a>
-     </div>
     <div class="wrapper">
-     <div class="written">
-     <a href="{{base}}/written" {% if page.class == "words" %}class="active"{% endif %}>
-		 Written<!-- <img src="{{base}}/img/written.png" height="150" width="150" alt=""/> --></a>
+     <div class="werds">
+     <a href="{{base}}/werds" {% if page.class == "werds" %}class="active"{% endif %}>
+		 werds<!-- <img src="{{base}}/img/written.png" height="150" width="150" alt=""/> --></a>
+     </div>
+    </div>
+    <div class="wrapper">
+     <div class="draw">
+     <a href="{{base}}/draw" {% if page.class == "draw" %}class="active"{% endif %}>
+     draw<!-- <img src="{{base}}/img/written.png" height="150" width="150" alt=""/> --></a>
      </div>
     </div>
    <div class="wrapper">
-    <a href="{{base}}/archive" {% if page.class == "archive" %}class="active"{% endif %}>Archive</a>
+    <a href="{{base}}/archive" {% if page.class == "archive" %}class="active"{% endif %}>archive</a>
    </div>
    <div class="wrapper">
-    <a href="{{base}}/about" {% if page.class == "about" %}class="active"{% endif %}>About</a>
+    <a href="{{base}}/about" {% if page.class == "about" %}class="active"{% endif %}>?</a>
    </div>
+   <!--
    <div class="wrapper">
     <a href="http://feeds.feedburner.com/mayarichman/">RSS</a>
    </div>
- </div>
+   -->
+</div>
 {{content}}
-<div id='footer'>Thank you for visiting, be sure to stop by my <a href='http://www.twitter.com/mayarichman' target='_blank'>Twitter</a> and <a href='http://www.github.com/mayarichman' target='_blank'>Github</a>, if you like what you see.</div>
+<div id='footer'><a href='http://www.twitter.com/auroranou' target='_blank'>Twitter</a> // <a href='http://www.github.com/ian29' target='_blank'>Github</a></div>
 </body>
 </html>
