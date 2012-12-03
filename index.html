@@ -1,39 +1,17 @@
-<html>
-<head>
-
-</head>
-<body>
-	<div class='banner'>
-		<h1>RA <span class='ro'>RO</span> RA</h1>
-	</div>
-</body>
-</html>
-
-<style type="text/css">
-
-@font-face {
-  font-family: 'Edelsans';
-  font-weight: normal;
-  font-style: normal;
-  }
-
-
-body {
-	background-image: url(img/bodyonfire.jpg);
-	background-repeat: repeat-x;
-	color: #fff;
-	font-family:  'Edelsans', 'Arial', sans-serif;
-}
-
-.banner {
-	text-align: center;
-	font-weight: bold;
-	font-size: 40px; 
-	padding: 100px;
-}
-
-.ro {
-	font-size: 120%;
-}
-
-</style>
+---
+layout: default
+---
+<div class="main-content">
+<div class="header"><h1>&laquo; RA <span class='ro'>RO</span> RA &raquo;</h1></div>
+<div class="blog-post">
+{% for post in site.categories.blog %}
+<div class="container color">
+      <h3>{{ post.title }}</h3><h4>{{post.date | date: "%A %B %d %Y" }}</h4>
+        <div class="body-post">{{ post.content }}</div>
+         {% if post.map %}
+         <div id='{{post.div}}' class='map'>&nbsp;</div>
+         {% endif %}
+</div>
+{% endfor %}
+</div>
+</div>
