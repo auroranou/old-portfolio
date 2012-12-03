@@ -24,6 +24,11 @@
 </head>
 <body {% if page.class %}class="{{page.class}}"{% endif %}  onload="prettyPrint()">
 <div class="nav">
+      <div class="wrapper" id='home'>
+     <div class="home">
+      <a href="{{base}}/" {% if page.class == nil %}class='active'{% endif %}>Home<!-- <img src="{{base}}/img/home.png" height="150" width="150" alt=""/> --></a>
+     </div>
+    </div>
     <div class="wrapper">
      <div class="werds">
      <a href="{{base}}/werds" {% if page.class == "werds" %}class="active"{% endif %}>
@@ -44,7 +49,7 @@
    </div>
    <!--
    <div class="wrapper">
-    <a href="http://feeds.feedburner.com/mayarichman/">RSS</a>
+    <a href="http://[MAKE HER A FEED]">feed me</a>
    </div>
    -->
 </div>
