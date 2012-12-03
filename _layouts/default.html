@@ -25,29 +25,29 @@
 
 <body {% if page.class %}class="{{page.class}}"{% endif %}  onload="prettyPrint()">
   <div class="nav">
+
     <!--
-    <span class="wrapper" id='home'>
      <span class="home">
       <a href="{{base}}/" {% if page.class == nil %}class='active'{% endif %}>Home</a>
      </span>
-    </span>
     -->
-    <div class="wrapper">
+    
+    <span class='wrapper'>
       <span class="werds">
         <a href="{{base}}/werds" {% if page.class == "werds" %}class="active"{% endif %}>
   	     werds</a>
       </span>
-    </div>
-    <span class="wrapper">
+    </span>
+    <span class='wrapper'>
       <span class="draw">
         <a href="{{base}}/draw" {% if page.class == "draw" %}class="active"{% endif %}>
           draw</a>
         </span>
-      </span>
-    <span class="wrapper">
+    </span>  
+    <span class='wrapper'>
       <a href="{{base}}/archive" {% if page.class == "archive" %}class="active"{% endif %}>archive</a>
     </span>
-    <span class="wrapper">
+    <span class='wrapper'>
       <a href="{{base}}/about" {% if page.class == "about" %}class="active"{% endif %}>?</a>
     </span>
      <!--
