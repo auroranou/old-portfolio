@@ -94,10 +94,10 @@ a:hover {
 }
 .header {
     padding:20px;
-    width:920px;
+    width:100%;
+    text-align: center;
     border: transparent #887F7F 1px;
     background:rgba(255,255,255,.7);
-    border-radius:0 10px 10px 0;
     color:rgb(4, 97, 141);
 }
 .header p {
@@ -178,14 +178,11 @@ h3.fancy {
     font-style:italic;
 }
 .nav {
-    width:200px;
-    position: absolute;
-    top:170px;
-    left: 0px;
-    padding-left:10px
+    text-align: center;
+    top:50px;
 }
 .nav .wrapper {
-    position:relative;
+    text-align: center;
 }
 .nav a, .nav a:hover {
     font-size:25px;
@@ -231,7 +228,7 @@ h3.fancy {
 .nav a:hover {zoom:1;}
 
 #footer {
-    padding:20px 0px 20px 430px;
+    text-align: center;
     font-size:15px;
     color:#fff;
 }
