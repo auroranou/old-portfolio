@@ -1,43 +1,3 @@
-/* ------------------------------------------
-  Reset ♥
-  http://meyerweb.com/eric/tools/css/reset/
-  v2.0 | 20110126
-  License: none (public domain)
----------------------------------------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-align: center;
-  }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-  }
-body { line-height: 1; }
-ol, ul { list-style: none;  }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after,
-q:before, q:after { content: ''; content: none; }
-/* tables still need 'cellspacing='0'' in the markup */
-table { border-collapse: collapse; border-spacing: 0; }
-:focus { outline: 0; }
 
 @font-face
 {
@@ -120,11 +80,12 @@ a:hover {
 .main-content{
     max-width: 1260px;
     min-width: 1260px;
+    text-align: center;
 }
 .container {
      width:640px;
      padding:20px;
-     margin: 65px 0px 0px 250px;
+     text-align: center;
 }
 .container a:hover{
     border-radius:5px;
@@ -140,9 +101,6 @@ text-decoration: none;
 .container.color{
     background-color:rgba(4, 97, 141, .7);
     color:whiteSmoke;
-    padding: 10px 0px 20px 20px;
-    border-radius:10px;
-    margin:65px 0px 0px 300px;
 }
 .container.color p {
     font-size:15px;
@@ -172,6 +130,7 @@ h3.fancy {
 .body-post{
     font-family:'Source Sans Pro';
     font-weight:200;
+    text-align: center;
 }
 .back {
     padding: 15px 0 0 0;
@@ -183,8 +142,7 @@ h3.fancy {
 }
 .nav {
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    background:rgba(255,255,255,.7);
 }
 .nav a, .nav a:hover {
     font-size:25px;
@@ -196,35 +154,6 @@ h3.fancy {
 .nav a img {
     border:none;one
 }
-/*.nav .mugs a {
-    display:inline-block; 
-    width:150px; 
-    height:150px; 
-    background:url("img/mugs-hover-2.png") left top no-repeat;
-}
-.nav .abs a {
-    display:inline-block;
-    width:150px; 
-    height:150px; 
-    background:url("img/abstract-hover-2.png") left top no-repeat;
-}
-.nav .written a {
-    display:inline-block;
-    width:150px;
-    height:150px;
-    background:url("img/written-hover.png") left top no-repeat;
-}
-.nav .home a {
-    display:inline-block;
-    width:150px;
-    height:150px; 
-    background:url("img/home-hover.png") left top no-repeat;
-}
-.nav a:hover img {
-    position:absolute;
-    left:-999em; 
-    top:-999em; }
-/* ie6 needs his fix*/
 .nav a:hover {zoom:1;}
 
 #footer {
@@ -238,7 +167,7 @@ h3.fancy {
     padding-top: 30px;
 }
 .archive table{
-    font-family:'Source Sans Pro';
+    font-family:'Edelsans';
     font-size: 15px;
     padding: 10px;
     line-height: 22px;
