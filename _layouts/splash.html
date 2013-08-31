@@ -1,0 +1,16 @@
+{% include dochead.html %}
+
+<div class='splash'>
+	&laquo;RA RO RA&raquo;
+</div>
+
+<div class="nav">
+    <a href="{{base}}/werds" class='quiet' {% if page.class == "werds" %}class="active"{% endif %}>
+	     werds</a>
+    <a href="{{base}}/draw" class='quiet' {% if page.class == "draw" %}class="active"{% endif %}>
+        draw</a>
+    <a href="{{base}}/about" class='quiet' {% if page.class == "about" %}class="active"{% endif %}>about</a>
+</div>
+
+{% include footer.html %}
+
