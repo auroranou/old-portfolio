@@ -458,8 +458,9 @@ Details: http://www.positioniseverything.net/easyclearing.html
 /* --- custom stuff, will change to use fresh start rules --- */
 
 .splash {
-  font-size: 900%;
+  font-size: 200%;
   text-transform: uppercase;
   letter-spacing: 20px;
 }
+.splash h1 { font-size: 900%; }
 .quiet { color: #333; }
