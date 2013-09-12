@@ -69,6 +69,7 @@ h5,
 h6 {
   margin:0;
   font-weight:bold;
+  text-transform: uppercase;
   }
 
 h1 {
@@ -103,7 +104,7 @@ h4, h5 {
 p {
   margin:0 0 20px 0;
   }   
-  p:last-child { margin-bottom:0;}
+  p:last-child { margin-bottom:40;}
 
 /* Links */
 a {
@@ -138,9 +139,10 @@ hr {
 /* Block Quotes */
 blockquote,
 q {
-  quotes:none;
+  quotes: &#8220;
   font-style:italic;
   padding-left:20px;
+  border-left: solid 8px #ccc;
   margin:10px;
   }
 
@@ -157,6 +159,7 @@ pre {
   padding:5px;
   font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
   font-size:12px;
+  text-align: left;
   border-radius:3px;
   }
 code {
@@ -294,7 +297,7 @@ table {
 /* Read content styling */
 .prose {
   max-width: 600px;
-  text-align: center;
+  width: 100%;
 }
 .prose ul {
   list-style:disc;
