@@ -355,14 +355,29 @@ table {
 
 /* Padding
 ------------------------------------------------------- */
-.pad1    { padding:10px; }
-.pad2    { padding:20px; }
-.pad21h  { padding:10px 20px; }
-.pad2h   { padding:0 20px; }
-.pad4    { padding:40px; }
-.pad4h   { padding-left:40px; padding-right:40px; }
-.pad8    { padding:80px 40px; }
-.pad4c   { padding:40px; }
+.pad1 { padding: 10px;}
+.pad2 { padding: 20px;}
+.pad4 { padding: 40px;}
+
+.pad1x { padding-left: 10px; padding-right: 10px;}
+.pad2x { padding-left: 20px; padding-right: 20px;}
+.pad4x { padding-left: 40px; padding-right: 40px;}
+
+.pad1y { padding-top: 10px; padding-bottom: 10px;}
+.pad2y { padding-top: 20px; padding-bottom: 20px;}
+.pad4y { padding-top: 40px; padding-bottom: 40px;}
+
+.margin1 { margin: 10px;}
+.margin2 { margin: 20px;}
+.margin4 { margin: 40px;}
+
+.margin1x { margin-left: 10px; margin-right: 10px;}
+.margin2x { margin-left: 20px; margin-right: 20px;}
+.margin4x { margin-left: 40px; margin-right: 40px;}
+
+.margin1y { margin-top: 10px; margin-bottom: 10px;}
+.margin2y { margin-top: 20px; margin-bottom: 20px;}
+.margin4y { margin-top: 40px; margin-bottom: 40px;}
 
 /* Additional Utility Classes
 ------------------------------------------------------- */
@@ -460,7 +475,11 @@ Details: http://www.positioniseverything.net/easyclearing.html
 .splash {
   font-size: 200%;
   text-transform: uppercase;
+  vertical-align: center;
+  color: #fff;
   letter-spacing: 20px;
+  height: 500px;
+  background: url(img/circle.png) center no-repeat;
 }
-.splash h1 { font-size: 900%; }
+.splash h1 { font-size: 200%; }
 .quiet { color: #333; }
