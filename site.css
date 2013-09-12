@@ -293,8 +293,8 @@ table {
 
 /* Read content styling */
 .prose {
-  width: 100%;
   max-width: 600px;
+  text-align: center;
 }
 .prose ul {
   list-style:disc;
