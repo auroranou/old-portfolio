@@ -2,9 +2,19 @@
 layout: default
 title: werds
 subtitle: "Really."
-quote: your favorite quote here
 ---
 
 <h2>&laquo; {{page.title}} &raquo;</h2>
-<p>{{page.quote}}</p>
-	
+
+<p>this will be the blog. call it something better than "werds"</p>
+
+{% for item in site.categories.blog limit:20 %}
+	<div class='clearfix prose'>
+		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
+			<h3>{{item.title}}</h3>
+			<hr class='prose'>
+			<p class='prose'>{{ item.excerpt }}</p>
+		</a>
+	</div>
+	<br>
+{% endfor %}
