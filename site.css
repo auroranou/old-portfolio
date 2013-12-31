@@ -106,6 +106,10 @@ p {
   }   
   p:last-child { margin-bottom:40;}
 
+footer {
+  position: absolute;
+  bottom: 30px;
+  }
 /* Links */
 a {
   color:#f03;
@@ -324,7 +328,6 @@ table {
 .container {
   max-width:1600px;
   margin:0 auto;
-  padding:20px 0 0 40px;
   overflow:hidden;
   }
 
@@ -487,3 +490,4 @@ Details: http://www.positioniseverything.net/easyclearing.html
 }
 .splash h1 { font-size: 200%; }
 .quiet { color: #333; }
+#circle { padding: 30px; }
