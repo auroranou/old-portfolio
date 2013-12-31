@@ -107,7 +107,7 @@ p {
   p:last-child { margin-bottom:40;}
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   }
 /* Links */
