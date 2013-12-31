@@ -107,8 +107,8 @@ p {
   p:last-child { margin-bottom:40;}
 
 footer {
-  position: absolute;
-  bottom: 30px;
+  position: fixed;
+  bottom: 0px;
   }
 /* Links */
 a {
@@ -137,7 +137,7 @@ hr {
   margin:0 0 20px;
   border:0;
   height:1px;
-  background:#f8f8f8; 
+  background:#bbb;
   }
 
 /* Block Quotes */
