@@ -45,6 +45,11 @@ table { border-collapse: collapse; border-spacing:0; }
 font-family: 'Edelsans';
 src: url('fonts/edelsans_regular.otf'),
 }
+@font-face
+{
+font-family: 'Bebas';
+src: url('fonts/bebas.ttf'),
+}
 
 /* Inline Elements & Typography
 ------------------------------------------------------- */
@@ -75,6 +80,7 @@ h6 {
 
 h1 {
   font-size:32px;
+  font-family: 'bebas', sans-serif;
   margin:20px 0 20px 0;
   line-height:1em;
   letter-spacing: 7px;
