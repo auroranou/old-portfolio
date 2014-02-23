@@ -9,10 +9,10 @@ subtitle: "Really."
 {% for item in site.categories.blog limit:20 %}
 	<div class='clearfix prose'>
 		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
-			<h3>{{item.title}}</h3>
+			<h1>{{item.title}}</h1>
 			<hr class='prose'>
 			<p class='prose'>{{ item.excerpt }}</p>
-			&#9733;
+			&harr;
 		</a>
 	</div>
 	<br>
