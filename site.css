@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
   }
 body { 
   line-height:1; 
-  /*background: url('img/bodyonfire.jpg') no-repeat center top; */
+  /*background: url('img/aurorayes_home.png') no-repeat center top; */
   }
 ol, ul { list-style:none;  }
 blockquote, q { quotes:none; }
@@ -52,6 +52,7 @@ body,
 input,
 textarea {
   color:#333;
+  background-color: #ffe6df;
   font:15px/1.67 'Edelsans', sans-serif;
   text-align: center;
   -webkit-font-smoothing:antialiased;
@@ -486,7 +487,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
   color: #fff;
   letter-spacing: 20px;
   height: 500px;
-  background: url(img/circle.png) center no-repeat;
+  background: url(img/aurorayes_home.png) center no-repeat;
 }
 .splash h1 { font-size: 200%; }
 .quiet { color: #333; }
