@@ -57,7 +57,7 @@ body,
 input,
 textarea {
   color:#333;
-  background-color: #ffe6df;
+  background-color: #ffffff;
   font:15px/1.67 'Edelsans', sans-serif;
   text-align: center;
   -webkit-font-smoothing:antialiased;
@@ -123,7 +123,7 @@ a {
   text-decoration:none;
   }
   a:hover {
-    color:#f01;
+    color:#397418;
     opacity: 1;
     }
   a:active {
@@ -493,6 +493,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
   color: #fff;
   letter-spacing: 20px;
   height: 500px;
+  background-color: #ffe6df;
   background: url(img/aurorayes_home.png) center no-repeat;
 }
 .splash h1 { font-size: 200%; }
