@@ -493,8 +493,9 @@ Details: http://www.positioniseverything.net/easyclearing.html
   color: #fff;
   letter-spacing: 20px;
   height: 500px;
-  background-color: #ffe6df;
-  background: url(img/aurorayes_splash.png) center no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-image: url(img/aurorayes_splash.png) no-repeat;
 }
 .splash h1 { font-size: 200%; }
 .quiet { color: #333; }
