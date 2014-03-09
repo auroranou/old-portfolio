@@ -114,8 +114,6 @@ p {
   p:last-child { margin-bottom:40;}
 
 footer {
-  position: relative;
-  bottom: 0px;
   }
 /* Links */
 a {
@@ -334,8 +332,10 @@ table {
 ------------------------------------------------------- */
 .container {
   max-width:1600px;
+  min-height: 99%;
   margin:0 auto;
   overflow:hidden;
+  position: relative;
   }
 
 /* Columns
@@ -498,4 +498,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
   background-image: url(img/aurorayes_splash.png) no-repeat;
 }
 .splash h1 { font-size: 200%; }
-.quiet { color: #333; }
+.footer {
+  bottom: 0px;
+  height: 20px;
+}
