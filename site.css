@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
   }
 body { 
   line-height:1; 
+  height: 100%
   /*background: url('img/aurorayes_home.png') no-repeat center top; */
   }
 ol, ul { list-style:none;  }
@@ -483,19 +484,5 @@ Details: http://www.positioniseverything.net/easyclearing.html
     }
   }
 
-
 /* --- custom stuff, will change to use fresh start rules --- */
-
-.splash {
-  font-size: 200%;
-  text-transform: uppercase;
-  vertical-align: center;
-  color: #fff;
-  letter-spacing: 20px;
-  height: 500px;
-  background-color: #fff;
-  background-position: center;
-  background-image: url(img/aurorayes_splash.png) no-repeat;
-}
-.splash h1 { font-size: 200%; }
 .quiet { color: #333; }
