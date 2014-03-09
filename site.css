@@ -28,8 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display:block;
   }
-body { 
-  line-height:1; 
+body {
+  line-height:1;
   /*background: url('img/aurorayes_home.png') no-repeat center top; */
   }
 ol, ul { list-style:none;  }
@@ -48,7 +48,7 @@ src: url('fonts/edelsans_regular.otf'),
 @font-face
 {
 font-family: 'Bebas';
-src: url('fonts/bebas.ttf'),
+src: url('fonts/bebas.ttf');
 }
 
 /* Inline Elements & Typography
@@ -58,7 +58,7 @@ input,
 textarea {
   color:#333;
   background-color: #ffffff;
-  font:15px/1.67 'Edelsans', sans-serif;
+  font:15px/1.67 sans-serif;
   text-align: center;
   -webkit-font-smoothing:antialiased;
   }
@@ -80,7 +80,7 @@ h6 {
 
 h1 {
   font-size:48px;
-  font-family: 'bebas', sans-serif;
+  font-family: 'Bebas', sans-serif;
   margin:20px 0 20px 0;
   line-height:1em;
   letter-spacing: 7px;
