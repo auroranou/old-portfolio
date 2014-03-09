@@ -6,19 +6,21 @@
 <html>
 <head>
 <style type ="text/CSS">
-body {background-color: #ffe6df;}
+	body {background-color: #fff;}
 </style>
 
-<a class='quiet' href='{{base}}/blog'>
-<img class='margin2' src='{{base}}/img/aurorayes_splash.png' alt='circle' position='center'/>
-</a>
+<div id='wrapper'>
+	<a class='quiet' href='{{base}}/blog'>
+	<img class='margin2' src='{{base}}/img/aurorayes_splash.png' alt='circle' position='fixed'/>
+	</a>
 
-<div class="nav margin2y">
-    <a href="{{base}}/blog" class='quiet' {% if page.class == "blog" %}class="active"{% endif %}>
-	     blog</a> &#9474; 
-    <a href="{{base}}/draw" class='quiet' {% if page.class == "draw" %}class="active"{% endif %}>
-        draw</a> &#9474; 
-    <a href="{{base}}/about" class='quiet' {% if page.class == "about" %}class="active"{% endif %}>about</a>
+	<div class="nav margin2y">
+	    <a href="{{base}}/blog" class='quiet' {% if page.class == "blog" %}class="active"{% endif %}>
+		     blog</a> &#9474; 
+	    <a href="{{base}}/draw" class='quiet' {% if page.class == "draw" %}class="active"{% endif %}>
+	        draw</a> &#9474; 
+	    <a href="{{base}}/about" class='quiet' {% if page.class == "about" %}class="active"{% endif %}>about</a>
+	</div>
 </div>
 </head>
 </html>
