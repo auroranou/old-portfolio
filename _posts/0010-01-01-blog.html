@@ -7,7 +7,7 @@ subtitle: "Really."
 <p>sometimes i have opinions about things</p>
 
 {% for item in site.categories.blog limit:20 %}
-	<div class='clearfix prose'>
+	<div class='clearfix prose col12'>
 		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
 			<h1>{{item.title}}</h1>
 			<hr class='prose'>
