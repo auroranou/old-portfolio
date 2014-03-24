@@ -7,12 +7,13 @@ subtitle: "Really."
 <p>sometimes i have opinions about things</p>
 
 {% for item in site.categories.blog limit:20 %}
-	<div class='clearfix prose col12'>
+	<div class='clearfix prose col12' align='center'>
 		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
 			<h1>{{item.title}}</h1>
 			<hr class='prose'>
 			<p class='prose'>{{ item.excerpt }}</p>
-			&harr;
+			<img class='img'>
+			&#9651;
 		</a>
 	</div>
 	<br>
