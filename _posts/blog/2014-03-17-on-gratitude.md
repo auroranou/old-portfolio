@@ -2,24 +2,24 @@
 layout: blog
 published: true
 category: blog
-permalink: /blog/on-gratitude
-excerpt: 
+permalink: /blog/on-gratitude 
+image: /img/portrait.jpg
 ---
 
 #On Gratitude and the Singularity
 
 <hr>
 
-![]({{site.baseurl}}/assets/2014-03-17-blog1.png)
+<img src="/assets/2014-03-17-blog1.png" alt="" />
 
-![]({{site.baseurl}}/assets/2014-03-17-blog2.png)
+<img src="/assets/2014-03-17-blog2.png" alt="" />
 
-![]({{site.baseurl}}/assets/2014-03-17-blog3.png)
+<img src="/assets/2014-03-17-blog3.png" alt="" />
 
-![]({{site.baseurl}}/assets/2014-03-17-blog4.png)
+<img src="/assets/2014-03-17-blog4.png" alt="" />
 
-![]({{site.baseurl}}/assets/2014-03-17-blog5.png)
+<img src="/assets/2014-03-17-blog5.png" alt="" />
 
-![]({{site.baseurl}}/assets/2014-03-17-blog6.png)
+<img src="/assets/2014-03-17-blog6.png" alt="" />
 
 Created with <a href="http://tayasui.com/sketches/theApp.php">Sketches</a>.
