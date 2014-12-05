@@ -23,6 +23,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-align: center;
   }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -90,25 +91,31 @@ a{
     border-radius:10px;
 }
 a:hover {
-    color:rgb(4, 97, 141);
-    background-color: white;
+    color:#f07;  
 }
 .header {
     padding:20px;
-    width:920px;
-    border: transparent #887F7F 1px;
+    width:100%;
+    text-align: center;
     background:rgba(255,255,255,.7);
-    border-radius:0 10px 10px 0;
     color:rgb(4, 97, 141);
+}
+.splash-header {
+    padding-top:200px;
+    height: 350px;
+    width:100%;
+    text-align: center; 
+    background:rgba(255,255,255,.45);
+    color:rgb(4, 97, 141);
+}
+.splash-header h1 {
+    font-size: 300%;
+    margin:50;
+    color: #fff;
 }
 .header p {
     letter-spacing:.5em;
     font-size:15px;
-}
-.map {
-    width:620px;
-    height:480px;
-    border-radius:20px;
 }
 .main-content{
     max-width: 1260px;
@@ -152,13 +159,9 @@ text-decoration: none;
 }
 .container.color h5 {
     text-align:center;
-    padding-top: 15px;
-}
-.container.color img.about {
-    padding:30px 0px 0px 60px;
 }
 .container.color li  {
-    margin:10px;
+    /*margin:10px;*/
     text-align:center;
     font-size:17px;
     letter-spacing:4px;
@@ -179,27 +182,19 @@ h3.fancy {
     font-style:italic;
 }
 .nav {
-    width:200px;
-    position: absolute;
-    top:170px;
-    left: 0px;
-    padding-left:10px
-}
-.nav .wrapper {
-    position:relative;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .nav a, .nav a:hover {
     font-size:25px;
-    margin:10px;
-    display:block;
-    padding:10px;
+
 }
 .nav a.active{
    color:rgb(4, 97, 141);
-   background-color: white;
 }
 .nav a img {
-    border:none
+    border:none;one
 }
 /*.nav .mugs a {
     display:inline-block; 
@@ -233,7 +228,8 @@ h3.fancy {
 .nav a:hover {zoom:1;}
 
 #footer {
-    padding:20px 0px 20px 430px;
+    text-align: center;
+    padding: 45px;
     font-size:15px;
     color:#fff;
 }
@@ -281,118 +277,6 @@ table.archive tbody tr td{
 .emphasis {
 	font-weight:600;
 }
-.carousel {
-  position: relative;
-  margin-bottom: 18px;
-  line-height: 1;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel .item {
-  position: relative;
-  display: none;
-  -webkit-transition: 0.6s ease-in-out left;
-     -moz-transition: 0.6s ease-in-out left;
-      -ms-transition: 0.6s ease-in-out left;
-       -o-transition: 0.6s ease-in-out left;
-          transition: 0.6s ease-in-out left;
-}
-
-.carousel .item > img {
-  display: block;
-  line-height: 1;
-}
-
-.carousel .active,
-.carousel .next,
-.carousel .prev {
-  display: block;
-}
-
-.carousel .active {
-padding: 30px 0px 0px 0px;
-}
-
-.carousel .next,
-.carousel .prev {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.carousel .next {
-  left: 100%;
-}
-
-.carousel .prev {
-  left: -100%;
-}
-
-.carousel .next.left,
-.carousel .prev.right {
-  left: 0;
-}
-
-.carousel .active.left {
-  left: -100%;
-}
-
-.carousel .active.right {
-  left: 100%;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #222222;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-     -moz-border-radius: 23px;
-          border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-.carousel-control.right {
-  right: 15px;
-  left: auto;
-}
-
-.carousel-control:hover {
-  color: #ffffff;
-  text-decoration: none;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-
-.carousel-caption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 10px 15px 5px;
-  background: #333333;
-  background: rgba(0, 0, 0, 0.75);
-}
-
-.carousel-caption h4,
-.carousel-caption p {
-  color: #ffffff;
-}
 
 .highlight pre, pre {
 background-color: #F8F8F8;
@@ -403,7 +287,6 @@ overflow: auto;
 padding: 6px 10px;
 border-radius: 3px;
 color: #555;
-text-shadow: 0 1px 0 white;
 width: 600px;
 }
 pre code, pre tt {
