@@ -1,7 +1,7 @@
 
-@font-face
-{
-font-family: 'PT Sans', sans-serif;
+@font-face {
+  font-family: 'Bebas', sans-serif;
+  src: url("../fonts/bebas.ttf");
 }
 
 /* Inline Elements & Typography
@@ -13,6 +13,7 @@ textarea {
   background-color: #ffffff;
   font:15px/1.67 sans-serif;
   text-align: center;
+  margin: 5%;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:bold;
   text-transform: uppercase;
   font-weight: 900; 
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Bebas', sans-serif;
   }
 
 h1 {
