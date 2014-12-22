@@ -47,7 +47,7 @@ li a:hover{
 /* Custom */
 .container{
   flex: 1;
-  background-color: #f7f7f7;
+  background-color: #fafafa;
 }
 
 .header {
@@ -78,7 +78,7 @@ li a:hover{
 
 .center{
   width: 80%;
-  padding: 20px;
+  padding: 30px;
   margin: auto;
   text-align: center;
 }
