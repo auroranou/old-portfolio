@@ -1,63 +1,62 @@
-
-@font-face {
-  font-family: 'Bebas', sans-serif;
-  src: url("../fonts/bebas.ttf");
-}
-
-/* Inline Elements & Typography
-------------------------------------------------------- */
-body,
-input,
-textarea {
-  color:#333;
-  background-color: #ffffff;
-  font:15px/1.67 sans-serif;
-  text-align: center;
-  margin: 5%;
-  -webkit-font-smoothing:antialiased;
-  }
+/* Inline Elements & Typography */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  }
+}
+
 h1, h2, h3, h4, h5, h6 {
-  margin:0;
-  font-weight:bold;
-  text-transform: uppercase;
-  font-weight: 900; 
-  font-family: 'Bebas', sans-serif;
-  }
+  font-family: 'Playfair Display', serif;
+}
 
 h1 {
-  font-size:60px;
-  font-weight: 700;
-  margin:20px 0 20px 0;
-  line-height:1em;
-  letter-spacing: 5px;
-  }
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
 
-h2 {
-  font-size:32px;
-  margin-bottom:20px;
-  line-height:1.25em;
-  }
+body, p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul{
+  margin-left: -40px;
+}
+
+ul li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+@font-face{
+  font-family: 'Entypo Social';
+  src: url('fonts/entypo-social.ttf');
+}
 
 /* Links */
-a {
-  color:#DC143C;
-  text-decoration:none;
-  }
-  a:hover {
-    color:#DC143C;
-    opacity: 1;
-    }
-  a:active {
-    color:#DC143C;
-    }
+a{
+  text-decoration: none;
+  color: #333;
+}
 
+li a:hover{
+  color: #B6E0DC;
+}
 
-/* --- custom stuff --- */
+/* Custom */
+.container{
+  flex: 1;
+  background-color: #f7f7f7;
+}
+
+.header {
+  width: 100%;
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+}
+
 .quiet { 
   color: #333; }
 
@@ -65,46 +64,38 @@ a {
   width: 240px; 
   height: 240px; 
   display: block;
-  background-color: #eee; 
   margin: 30px; 
-  vertical-align: center; 
+  text-align: center;
   background-repeat: no-repeat;
-  
 }
 
 .entry:hover {
   /* make a circle */
   display: block;
   border-radius: 120px;
+  background-color: #B6E0DC;
+}
 
+.center{
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
 }
 
 .footer {
-  font-family: 'Open Sans';
-  font-weight: 700;
   text-transform: uppercase;
-  text-align: right;
-  background-color: #ff5e6a;
-  bottom: 0px;
-  height: 40px;
+  text-align: center;
   width: 100%;
 }
 
-.footer a { 
-  color: #fff; 
-  padding-right: 20px;}
-.footer a:hover { 
-  color: #07f; }
-
-.header {
-  border-bottom: solid 6px;
+.contact{
+  font-family: 'Entypo Social';
+  font-size: 3em;
+  vertical-align: -10%;
 }
 
-a.footer {
-  padding-right: 20px;
-}
-
-/* --- flexbox --- */
+/* Flexbox */
 .flexcontainer {
   display: flex;  
   flex-flow: row;
@@ -112,10 +103,10 @@ a.footer {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  min-height: 100vh;
 }
 
-/* Tablet Layout
-------------------------------------------------------- */
+/* Tablet Layout */
 @media only screen and (max-width:770px) {
   .hide-tablet { display:none; }
   .show-tablet { display:block; }
