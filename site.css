@@ -58,11 +58,7 @@ body{
   text-transform: uppercase;
   color: #333;
   text-align: center;
-<<<<<<< HEAD
-  border-bottom: 1px solid #ccc;
-=======
   border-bottom: 1px solid #ddd;
->>>>>>> gh-pages
 }
 
 .quiet { 
@@ -95,11 +91,7 @@ body{
   text-transform: uppercase;
   text-align: center;
   width: 100%;
-<<<<<<< HEAD
-  border-top: 1px solid #ccc;
-=======
   border-top: 1px solid #ddd;
->>>>>>> gh-pages
 }
 
 .contact{
