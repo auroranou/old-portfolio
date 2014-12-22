@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Playfair Display', serif;
 }
 
-h1 {
+h1, h2{
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5em;
@@ -41,10 +41,14 @@ a{
 }
 
 li a:hover{
-  color: #B6E0DC;
+  color: #FF3300;
 }
 
 /* Custom */
+body{
+  background-color: #fafafa;
+}
+
 .container{
   flex: 1;
 }
@@ -54,7 +58,11 @@ li a:hover{
   text-transform: uppercase;
   color: #333;
   text-align: center;
+<<<<<<< HEAD
   border-bottom: 1px solid #ccc;
+=======
+  border-bottom: 1px solid #ddd;
+>>>>>>> gh-pages
 }
 
 .quiet { 
@@ -73,7 +81,7 @@ li a:hover{
   /* make a circle */
   display: block;
   border-radius: 120px;
-  background-color: #B6E0DC;
+  background-color: #FF3300;
 }
 
 .center{
@@ -87,7 +95,11 @@ li a:hover{
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+<<<<<<< HEAD
   border-top: 1px solid #ccc;
+=======
+  border-top: 1px solid #ddd;
+>>>>>>> gh-pages
 }
 
 .contact{
