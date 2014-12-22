@@ -45,9 +45,12 @@ li a:hover{
 }
 
 /* Custom */
+body{
+  background-color: #fafafa;
+}
+
 .container{
   flex: 1;
-  background-color: #fafafa;
 }
 
 .header {
@@ -55,6 +58,7 @@ li a:hover{
   text-transform: uppercase;
   color: #333;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .quiet { 
@@ -87,6 +91,7 @@ li a:hover{
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+  border-top: 1px solid #ddd;
 }
 
 .contact{
