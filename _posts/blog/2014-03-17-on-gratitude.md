@@ -6,7 +6,7 @@ permalink: /blog/on-gratitude
 image: /img/portrait.jpg
 ---
 
-#On Gratitude and the Singularity
+## On Gratitude and the Singularity
 
 <hr>
 
