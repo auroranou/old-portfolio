@@ -13,10 +13,12 @@ h1, h2{
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+  clear: both;
 }
 
 body, p{
   font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5em;
 }
 
 ul{
@@ -40,7 +42,7 @@ a{
   color: #333;
 }
 
-li a:hover{
+a:hover{
   color: #FF3300;
 }
 
@@ -91,7 +93,23 @@ img{
   text-align: center;
 }
 
+.left{
+  float: left;
+  width: 50%;
+  border-right: 1px solid #ddd;
+}
+
+.right{
+  float: left;
+  width: 50%;
+}
+
+.resume{
+  margin: 50px auto;
+}
+
 .footer {
+  clear: both;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
