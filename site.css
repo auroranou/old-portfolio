@@ -129,6 +129,12 @@ img{
   border-bottom: 1px solid #ddd;
 }
 
+.red{
+  color: #ff3300;
+  font-family: 'Entypo';
+  font-size: 2em;
+}
+
 .footer {
   clear: both;
   text-transform: uppercase;
