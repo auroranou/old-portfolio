@@ -6,7 +6,7 @@ layout: default
 
 {% for item in site.categories.blog limit:20 %}
     
-    <a class='quiet entry' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
+    <a class='entry' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
     	<h2>{{item.title}}</h2>
     </a>
     

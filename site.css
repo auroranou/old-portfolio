@@ -79,20 +79,26 @@ img{
   border-bottom: 1px solid #ddd;
 }
 
-.entry { 
+.entry{ 
   width: 240px; 
   height: 240px; 
   display: block;
-  margin: 50px; 
+  margin: 20px; 
   text-align: center;
   background-repeat: no-repeat;
+  border: 1px black solid;
 }
 
-.entry:hover {
-  /* make a circle */
+.entry:hover{
+  color: #fff;
+}
+
+.entry:hover::after{
+  content:'';
   display: block;
+  height: 240px;
   border-radius: 120px;
-  background-color: #FF3300;
+  background-color: rgba(255,51,0,0.8);
 }
 
 .center{
