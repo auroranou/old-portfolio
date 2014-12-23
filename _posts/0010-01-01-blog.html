@@ -4,9 +4,9 @@ title: blog
 ---
 
 {% for item in site.categories.blog limit:20 %}
-	<div class='container center'>
-		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
-			<h2>{{item.title}}</h2>
+	<div class="blog">
+		<a href='{{site.baseurl}}{{item.permalink}}'>
+			<h2><span class="plus">&#10133;</span>{{item.title}}</h2>
 		</a>
 		<p>{{ item.date }}</p>
 	</div>

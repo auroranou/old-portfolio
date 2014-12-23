@@ -79,9 +79,6 @@ img{
   border-bottom: 1px solid #ddd;
 }
 
-.quiet { 
-  color: #333; }
-
 .entry { 
   width: 240px; 
   height: 240px; 
@@ -119,6 +116,15 @@ img{
   text-align: center;
 }
 
+.blog{
+  border-bottom: 1px solid #ddd;
+  margin: 30px auto;
+}
+
+.blog:last-child{
+  border-bottom: none;
+}
+
 .resume{
   margin: 20px auto 60px auto;
   text-align: left;
@@ -129,7 +135,7 @@ img{
   border-bottom: 1px solid #ddd;
 }
 
-.red{
+.plus{
   color: #ff3300;
   font-family: 'Entypo';
   font-size: 2em;
