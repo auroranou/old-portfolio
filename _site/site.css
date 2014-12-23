@@ -49,6 +49,10 @@ body{
   background-color: #fafafa;
 }
 
+img{
+  display: block;
+}
+
 .container{
   flex: 1;
 }
