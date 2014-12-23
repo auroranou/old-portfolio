@@ -6,9 +6,8 @@ title: blog
 {% for item in site.categories.blog limit:20 %}
 	<div class='container center'>
 		<a class='quiet' href='{{site.baseurl}}{{item.permalink}}'>
-			<h1>{{item.title}}</h1>
-			<p>{{ item.content }}</p>
+			<h2>{{item.title}}</h2>
 		</a>
+		<p>{{ item.date }}</p>
 	</div>
-	<br>
 {% endfor %}
