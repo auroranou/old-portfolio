@@ -57,6 +57,10 @@ a:hover{
   color: #FF3300;
 }
 
+h1 a:hover{
+  color: #333;
+}
+
 /* Custom */
 body{
   background-color: #fafafa;
