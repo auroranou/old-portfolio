@@ -3,8 +3,6 @@ layout: default
 title: "portfolio"
 ---
 
-<div class='flexcontainer'>
-
 {% for item in site.categories.portfolio limit:20 %}
     
     <a class='portfolio' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
@@ -13,4 +11,3 @@ title: "portfolio"
     
 {% endfor %}
 
-</div>
