@@ -7,8 +7,8 @@ title: "portfolio"
 
 {% for item in site.categories.portfolio limit:20 %}
     
-    <a class='entry' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
-    	<h2 id='entry'>{{item.title}}</h2>
+    <a class='portfolio' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
+    	<!-- <h2>{{item.title}}</h2> -->
     </a>
     
 {% endfor %}
