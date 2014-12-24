@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
 	$('.portfolio').hover(function(){
-		$(this).addClass('circle');
+		$(this).find('.portfolio-title').fadeIn('slow');
 	},
 	function(){
-		$(this).removeClass('circle');
+		$(this).find('.portfolio-title').fadeOut('slow');
 	});
-	
+
 });
