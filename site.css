@@ -103,9 +103,9 @@ img{
   border: 1px solid #ddd;
 }
 
-.portfolio:hover::before{
-  content:'';
-  display: block;
+.circle{
+/*  content:'';
+  display: block;*/
   height: 300px;
   width: 300px;
   border-radius: 150px;
