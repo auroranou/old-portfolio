@@ -8,18 +8,16 @@ image: /img/portrait.jpg
 
 ## On Gratitude and the Singularity
 
-<hr>
+![1]({{site.baseurl}}/assets/2014-03-17-blog1.png)
 
-<img src="/assets/2014-03-17-blog1.png" alt="" />
+![2]({{site.baseurl}}/assets/2014-03-17-blog2.png)
 
-<img src="/assets/2014-03-17-blog2.png" alt="" />
+![3]({{site.baseurl}}/assets/2014-03-17-blog3.png)
 
-<img src="/assets/2014-03-17-blog3.png" alt="" />
+![4]({{site.baseurl}}/assets/2014-03-17-blog4.png)
 
-<img src="/assets/2014-03-17-blog4.png" alt="" />
+![5]({{site.baseurl}}/assets/2014-03-17-blog5.png)
 
-<img src="/assets/2014-03-17-blog5.png" alt="" />
-
-<img src="/assets/2014-03-17-blog6.png" alt="" />
+![6]({{site.baseurl}}/assets/2014-03-17-blog6.png)
 
 Created with <a href="http://tayasui.com/sketches/theApp.php">Sketches</a>.
