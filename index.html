@@ -1,10 +1,11 @@
 ---
 layout: default
+title: "portfolio"
 ---
 
 <div class='flexcontainer'>
 
-{% for item in site.categories.blog limit:20 %}
+{% for item in site.categories.portfolio limit:20 %}
     
     <a class='entry' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
     	<h2 id='entry'>{{item.title}}</h2>
