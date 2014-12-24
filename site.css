@@ -65,6 +65,7 @@ h1 a:hover{
 img{
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .container{
@@ -86,7 +87,7 @@ img{
   margin: 20px; 
   text-align: center;
   background-repeat: no-repeat;
-  border: 1px black solid;
+  /*border: 1px black solid;*/
 }
 
 .entry:hover{
