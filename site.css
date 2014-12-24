@@ -74,7 +74,7 @@ img{
 
 .container{
   display: flex;
-  min-height: 92vh;
+  min-height: 90vh;
   flex-direction: column;
 }
 
