@@ -2,7 +2,7 @@
 layout: blog
 published: true
 category: blog
-permalink: /blog/hello
+permalink: /blog/hello-world
 image: /assets/2014-03-12-blog1.png
 ---
 

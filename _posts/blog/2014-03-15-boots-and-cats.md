@@ -1,8 +1,8 @@
 ---
 layout: default
 published: true
-category: portfolio
-permalink: /portfolio/bootscats
+category: blog
+permalink: /blog/boots-and-cats
 image: /assets/andcats.png
 ---
 
