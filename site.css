@@ -161,6 +161,11 @@ img{
   font-size: 2em;
 }
 
+.about img{
+  margin: 60px auto 30 auto;
+  max-height: 500px;
+}
+
 .footer {
   clear: both;
   text-transform: uppercase;

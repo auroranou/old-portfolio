@@ -6,5 +6,5 @@ $(document).ready(function(){
 	function(){
 		$(this).find('.portfolio-title').fadeOut('slow');
 	});
-
+	
 });
