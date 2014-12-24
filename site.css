@@ -21,6 +21,7 @@ h1{
 
 h2{
   letter-spacing: 0.2em;
+  color: #333;
 }
 
 body, p{
@@ -58,9 +59,9 @@ a:hover{
   color: #FF3300;
 }
 
-ul li a, 
 h1 a, 
-h1 a:hover{
+h1 a:hover,
+ul li a{
   color: #333;
 }
 
