@@ -8,6 +8,6 @@ title: blog
 		<a href='{{site.baseurl}}{{item.permalink}}'>
 			<h2><span class="plus">&#10133;</span>{{item.title}}</h2>
 		</a>
-		<p>{{ item.date }}</p>
+		<p>{{ item.date | date_to_long_string }}</p>
 	</div>
 {% endfor %}
