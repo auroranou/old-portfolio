@@ -163,7 +163,7 @@ img{
 }
 
 div.about{
-  /*display: inline;*/
+  display: block;
   background-image: url('img/aurora_round.png');
   background-repeat: no-repeat;
   height: 250px;
