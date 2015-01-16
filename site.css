@@ -5,199 +5,56 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Playfair Display', serif;
+body {
+  width: 100%;
+  font-family: 'Hammersmith One', sans-serif;
+  background-color: #f7f7f7;
+  color: #171714;
 }
 
-h1, h2{
-  font-weight: bold;
+h1, h4 {
   text-transform: uppercase;
-  clear: both;
-}
-
-h1{
   letter-spacing: 0.5em;
 }
 
-h2{
-  letter-spacing: 0.2em;
-  color: #333;
-}
-
-body, p{
+p {
   font-family: 'Josefin Sans', sans-serif;
-  line-height: 1.5em;
-  color: #333;
+  line-height: 1.4em;
 }
 
-ul{
-  margin-left: -40px;
+a {
+  color: #777;
+  text-decoration: none;
 }
 
-ul li{
-  display: inline;
-  list-style-type: none;
+a:hover {
+  color: #F7322A;
+}
+
+.top {
+  background-color: #171714;
+  color: #ffffff;
+  padding-top: 220px;
+}
+
+.center {
+  width: 450px;
+  margin: auto;
+  padding: auto;
+}
+
+.half {
+  width: 50%;
+  float: left;
   padding: 20px;
 }
 
-@font-face{
-  font-family: 'Entypo';
-  src: url('fonts/entypo.ttf');
-}
-
-@font-face{
-  font-family: 'Entypo Social';
-  src: url('fonts/entypo-social.ttf');
-}
-/* Links */
-a{
-  text-decoration: none;
-  color: #555;
-}
-
-a:hover{
-  color: #FF3300;
-}
-
-h1 a, 
-h1 a:hover,
-ul li a{
-  color: #333;
-}
-
-/* Custom */
-img{
-  display: block;
-  margin: auto;
-  max-width: 100%;
-}
-
-.container{
-  display: flex;
-  min-height: 90vh;
-  flex-direction: column;
-}
-
-.center{
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  flex: 1;
-}
-
-.header {
-  width: 100%;
-  text-transform: uppercase;
-  color: #333;
-  text-align: center;
-  border-bottom: 1px solid #ddd;
-}
-
-.portfolio{ 
-  width: 100%; 
-  height: 300px; 
-  display: block;
-  margin: 60px auto; 
-  text-align: center;
-  background-repeat: no-repeat;
-  border: 1px solid #ddd;
-  position: relative;
-}
-
-.portfolio-title{
+.hidden {
   display: none;
-  height: 300px;
-  width: 300px;
-  border-radius: 150px;
-  position: absolute;
-  top: -20px;
-  padding: 120px 30px 0 30px;
-  background-color: rgba(255,51,0,0.8);
-  color: #fff;
-  line-height: 1.5em;
 }
 
-.left{
-  float: left;
-  width: 50%;
-  text-align: center;
-  border-right: 1px solid #ddd;
-  margin-bottom: 50px;
-}
-
-.right{
-  float: left;
-  width: 50%;
-  text-align: center;
-}
-
-.blog{
-  border-bottom: 1px solid #ddd;
-  margin: 30px auto;
-  padding-bottom: 30px;
-}
-
-.blog:first-child{
-  margin: 60px auto;
-}
-
-.blog:last-child{
-  margin: 60px auto;
-  border-bottom: none;
-}
-
-.resume{
-  margin: 60px auto;
-  text-align: left;
-}
-
-.resume h2{
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.plus{
-  color: #ff3300;
-  font-family: 'Entypo';
-  font-size: 2em;
-}
-
-div.about{
-  display: block;
-  background-image: url('img/aurora_round.png');
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 250px;
-  background-size: 240px;
-  margin: 60px auto 30 auto;
-}
-
-div.about:hover::after{
-  display: block;
-  content: 'Hello!';
-  height: 250px;
-  width: 240px;
-  padding-top: 100px;
-  border-radius: 120px;
-  background-color: rgba(255,51,0,0.8);
-  color: #fff;
-  text-transform: uppercase;
-   font-family: 'Playfair Display', serif;
-  letter-spacing: 0.2em;
-}
-
-.footer {
-  clear: both;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  border-top: 1px solid #ddd;
-}
-
-.contact{
-  font-family: 'Entypo', 'Entypo Social';
-  font-size: 3em;
-  padding: 0 10px;
+.entypo {
+  font-family: 'Entypo Social'
 }
 
 /* Tablet Layout */

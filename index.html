@@ -1,15 +1,28 @@
 ---
 layout: default
-title: "portfolio"
+title: 'home'
 ---
 
-{% for item in site.categories.portfolio limit:20 %}
-    
-    <a class='portfolio' style='background-image:url({{item.image}})' href='{{site.baseurl}}{{item.permalink}}'>
-    	<h2 class='portfolio-title'>
-    		{{item.title}}
-    	</h2>
-    </a>
-    
-{% endfor %}
+<div class='top'>
+	<div class='center'>
+		<h1><span>></span><span id='name'>Aurora Nou</span></h1>
+		<h4>Full stack web developer</h4>
+	</div>
+</div>
+
+<div class='main'>
+	<div class='half'>
+		<h2>About</h2>
+		<p>International affairs specialist turned full-stack web developer with an extensive background in human rights, international development, and critical international relations theory.</p>
+		<p>I am interested in using technology to promote social good and social justice. If you are too, <a href='mailto:auroranou@gmail.com'>drop me a line</a>.</p>
+	</div>
+	<div class='half'>
+		<h2>Contact</h2>
+		<p>
+		<a href='github.com/auroranou'><span class='entypo'>&#62208;</span> github.com/auroranou</a><br>
+		<a href='twitter.com/auroranou'><span class='entypo'>&#62217;</span> twitter.com/auroranou</a><br>
+		<span class='entypo'>&#62232;</span> auroranou[at]gmail[dot]com
+		</p>
+	</div>
+</div>
 

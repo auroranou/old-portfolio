@@ -1,8 +1,20 @@
 $(document).ready(function(){
-	$('.portfolio').hover(function(){
-		$(this).find('.portfolio-title').fadeIn('fast');
+	// set landing div (class = top) to full window height
+	var height = $(window).height() + 'px';
+	$('.top').css('height', height);
+
+	// change h1 on hover
+	var intervalID; 
+	$('h1').hover(function(){
+		$('#name').html('_');
+		intervalID = setInterval(function() {
+			$('#name').toggleClass('hidden');
+		}, 500);
 	},
 	function(){
-		$(this).find('.portfolio-title').fadeOut('slow');
+		$('#name').removeClass('hidden').html('Aurora Nou');
+		clearInterval(intervalID);
 	});
+
+
 });
