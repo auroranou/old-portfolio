@@ -55,10 +55,21 @@ ul {
   line-height: 1.4em;
 }
 
+img {
+  width: 640px;
+}
+
 .top {
-  background-color: #171714;
   color: #ffffff;
   padding-top: 220px;
+}
+
+#index {
+  background-color: #171714;
+}
+
+#civicfix {
+  background-color: #fd4c48;
 }
 
 .center {

@@ -3,6 +3,7 @@ $(document).ready(function(){
 	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
 
+	// on project 1 screen, change top background to red
 	// change h1 on hover
 	var intervalID; 
 	$('h1').hover(function(){
