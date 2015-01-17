@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	// set landing div (class = top) to full window height
-	var height = $(window).height() - 40 + 'px';
+	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
 
 	// change h1 on hover
