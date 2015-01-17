@@ -57,8 +57,12 @@ ul {
 .top {
   width: 100%;
   color: #ffffff;
-  padding-top: 220px;
   display: none;
+}
+
+.center {
+  width: 450px;
+  margin: 220px auto 0 auto;
 }
 
 #index {
@@ -71,12 +75,6 @@ ul {
   background-size: 685px;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.center {
-  width: 450px;
-  margin: auto;
-  padding: auto;
 }
 
 .main {

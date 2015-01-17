@@ -1,9 +1,10 @@
+
 $(document).ready(function(){
 	// set landing div (class = top) to full window height
 	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
+	$('.top').slideDown(2000);
 
-	// on project 1 screen, change top background to red
 	// change h1 on hover
 	var intervalID; 
 	$('h1').hover(function(){
@@ -16,6 +17,4 @@ $(document).ready(function(){
 		$('#name').removeClass('hidden').html('Aurora Nou');
 		clearInterval(intervalID);
 	});
-
-
 });
