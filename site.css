@@ -70,6 +70,10 @@ img {
 
 #civicfix {
   background-color: #fd4c48;
+  background-image: url(img/civic_fix.png);
+  background-size: 640px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .center {
