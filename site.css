@@ -57,12 +57,13 @@ ul {
 .top {
   width: 100%;
   color: #ffffff;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .center {
   width: 450px;
-  margin: 220px auto 0 auto;
 }
 
 #index {
@@ -71,10 +72,10 @@ ul {
 
 #civicfix {
   background-color: #fd4c48;
-  background-image: url(img/civic_fix.png);
-  background-size: 685px;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+#civicfix-pic {
+  width: 685px;
 }
 
 .main {

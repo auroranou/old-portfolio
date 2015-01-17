@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// set landing div (class = top) to full window height
 	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
-	$('.top').slideDown(2000);
+	$('.top').hide().slideDown(1000);
 
 	// change h1 on hover
 	var intervalID; 
