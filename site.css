@@ -55,8 +55,10 @@ ul {
 }
 
 .top {
+  width: 100%;
   color: #ffffff;
   padding-top: 220px;
+  display: none;
 }
 
 #index {
@@ -79,7 +81,8 @@ ul {
 
 .main {
   width: 660px;
-  margin: 40px auto 40px auto;
+  margin: auto;
+  padding: 40px 0;
 }
 
 .main h2 {
@@ -108,7 +111,7 @@ ul {
 }
 
 .resume{
-  margin: 30px 0;
+  margin: 0 0 30px 0;
   clear: both;
 }
 
@@ -116,10 +119,17 @@ ul {
   margin-bottom: 5px;
 }
 
+.resume ul {
+  margin: 0;
+}
+
+.resume ul:last-child {
+  margin-bottom: 30px;
+}
+
 .colthird {
   width: 220px;
   float: left;
-  margin-bottom: 30px;
 }
 
 .hidden {
