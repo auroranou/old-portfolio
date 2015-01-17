@@ -99,10 +99,17 @@ ul {
 
 .resume{
   margin: 30px 0;
+  clear: both;
 }
 
 .resume p {
   margin-bottom: 5px;
+}
+
+.colthird {
+  width: 210px;
+  float: left;
+  margin-bottom: 30px;
 }
 
 .hidden {
