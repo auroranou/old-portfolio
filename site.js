@@ -22,9 +22,9 @@ $(document).ready(function() {
 
 	// transition animation for resume page on homepage
 	$('a[href="#resume"]').click(function() {
-		$('#index-main').addClass('hidden');
 		$('.center').hide();
 		$('#index-top').slideUp(1000);
+		$('#index-main').addClass('hidden');
 		$('#page-resume').show();
 	});
 });
