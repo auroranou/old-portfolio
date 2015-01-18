@@ -1,22 +1,30 @@
 
-$(document).ready(function(){
+$(document).ready(function() {
 	// set landing div (class = top) to full window height
 	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
 
 	// slide top div down on homepage
-	$('#index').hide().slideDown(1000);
+	$('#index-top').hide().slideDown(1000);
 
 	// change h1 on hover
 	var intervalID; 
-	$('h1').hover(function(){
+	$('h1').hover(function() {
 		$('#name').html('_');
 		intervalID = setInterval(function() {
 			$('#name').toggleClass('hidden');
 		}, 500);
 	},
-	function(){
+	function() {
 		$('#name').removeClass('hidden').html('Aurora Nou');
 		clearInterval(intervalID);
+	});
+
+	// transition animation for resume page on homepage
+	$('a[href="#resume"]').click(function() {
+		$('#index-main').addClass('hidden');
+		$('.center').hide();
+		$('#index-top').slideUp(1000);
+		$('#page-resume').show();
 	});
 });
