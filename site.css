@@ -34,7 +34,6 @@ a:hover {
 header{
   width: 100%;
   background-color: #171714;
-  color: #ffffff;
   height: 50px;
   padding: 10px 0 10px 20px;
 }
@@ -59,15 +58,27 @@ ul {
   color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .center {
   width: 450px;
 }
 
+.previous, .next {
+  font-size: 200px;
+}
+
+.previous a, .next a {
+  color: #ffffff;
+}
+
 #index-top {
   background-color: #171714;
+}
+
+#index-top .previous {
+  color: #171714;
 }
 
 #civicfix {
