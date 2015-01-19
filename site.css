@@ -62,7 +62,8 @@ ul {
 }
 
 .center {
-  width: 450px;
+  width: 660px;
+  padding: 0 100px;
 }
 
 .previous, .next {
