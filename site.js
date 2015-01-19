@@ -22,10 +22,11 @@ $(document).ready(function() {
 
 	// transition animation from homepage to resume
 	$('a[href="#resume"]').click(function() {
-		$('.center').hide();
+		// $('.center').hide();
 		$('#index-top').slideUp(1000);
-		$('#index-main').addClass('hidden');
 		$('#page-resume').show();
+		$('#index-main').addClass('hidden');
 		$('body').animate({ scrollTop: 0}, 'slow');
+		preventDefault();
 	});
 });
