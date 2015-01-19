@@ -1,11 +1,9 @@
 
 $(document).ready(function() {
+	var loc = window.location.hash;
 	// set landing div (class = top) to full window height
 	var height = $(window).height() - 20 + 'px';
 	$('.top').css('height', height);
-
-	// slide top div down on homepage
-	$('#index-top').hide().slideDown(1500);
 
 	// change h1 on hover
 	var intervalID; 
@@ -28,6 +26,11 @@ $(document).ready(function() {
 		$('#index-main').addClass('hidden');
 		$('body').animate({ scrollTop: 0}, 'slow');
 		$('#header-name').fadeIn();
-		preventDefault();
 	});
+
+	if (loc ==="#resume") {
+		$('#page-index').addClass('hidden');
+		$('#page-resume').show();
+		$('#header-name').show();
+	}
 });
