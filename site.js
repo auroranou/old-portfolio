@@ -20,11 +20,12 @@ $(document).ready(function() {
 		clearInterval(intervalID);
 	});
 
-	// transition animation for resume page on homepage
+	// transition animation from homepage to resume
 	$('a[href="#resume"]').click(function() {
 		$('.center').hide();
 		$('#index-top').slideUp(1000);
 		$('#index-main').addClass('hidden');
 		$('#page-resume').show();
+		$('body').animate({ scrollTop: 0}, 'slow');
 	});
 });
