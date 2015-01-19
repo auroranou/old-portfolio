@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$('.top').css('height', height);
 
 	// slide top div down on homepage
-	$('#index-top').hide().slideDown(1000);
+	$('#index-top').hide().slideDown(1500);
 
 	// change h1 on hover
 	var intervalID; 
@@ -22,11 +22,12 @@ $(document).ready(function() {
 
 	// transition animation from homepage to resume
 	$('a[href="#resume"]').click(function() {
-		// $('.center').hide();
+		$('.center').fadeOut();
 		$('#index-top').slideUp(1000);
 		$('#page-resume').show();
 		$('#index-main').addClass('hidden');
 		$('body').animate({ scrollTop: 0}, 'slow');
+		$('#header-name').fadeIn();
 		preventDefault();
 	});
 });
