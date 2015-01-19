@@ -62,8 +62,8 @@ ul {
 }
 
 .center {
-  width: 660px;
-  padding: 0 100px;
+  width: 685px;
+  padding: 0 120px 0 130px;
 }
 
 .previous, .next {
@@ -76,10 +76,6 @@ ul {
 
 #index-top {
   background-color: #171714;
-}
-
-#index-top .previous {
-  color: #171714;
 }
 
 #civicfix {
