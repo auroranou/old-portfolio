@@ -5,3 +5,6 @@ permalink: /:title
 paginate: 6
 paginate_path: "blog/page:num"
 markdown: kramdown
+sass: 
+  sass_dir: assets/_scss
+  style: compressed

@@ -1,6 +1,9 @@
 ---
 ---
 
+@import 'main';
+@import 'top';
+
 /* Google Fonts */
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600);
 @import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
@@ -52,13 +55,13 @@ header{
   background-color: $background-color;
   height: 50px;
   padding: 10px 0 10px 20px;
-}
 
-header h2, header a, header a:hover {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  color: #ffffff;
-  margin: 0;
+  h2, a, a:hover {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: $accent-text-color;
+    margin: 0;
+  }
 }
 
 ul {
@@ -67,38 +70,6 @@ ul {
   padding-left: 1em;
   text-indent: -0.75em;
   line-height: 1.4em;
-}
-
-.top {
-  width: 100%;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;   
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-flex-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: justify;
-  justify-content: space-around;
-}
-
-.center {
-  width: 685px;
-  padding: 0 120px 0 130px;
-}
-
-.previous, .next {
-  height: 60px;
-}
-
-.previous a, .next a {
-  color: #ffffff;
 }
 
 #index-top {
@@ -111,37 +82,6 @@ ul {
 
 #civicfix-pic {
   width: 685px;
-}
-
-.main {
-  width: 660px;
-  margin: auto;
-  padding: 40px 0;
-}
-
-.main h2 {
-  margin: 0 0 10px 0;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #dddddd;
-}
-
-.colleft {
-  width: 400px;
-  float: left;
-  margin: 0 0 40px 0;
-  padding-right: 20px;
-  border-right: 1px solid #dddddd;
-}
-
-.colright {
-  width: 220px;
-  float: left;
-  margin: 0 0 40px 0;
-  padding-left: 20px;
-}
-
-.colleft h2, .colright h2 {
-  border: none;
 }
 
 .resume{
@@ -161,17 +101,8 @@ ul {
   margin-bottom: 30px;
 }
 
-.colthird {
-  width: 220px;
-  float: left;
-}
-
 .hidden {
   display: none;
-}
-
-.entypo {
-  font-family: 'Entypo', 'Entypo Social';
 }
 
 /* Tablet Layout */
