@@ -52,7 +52,7 @@ a {
 
 header{
   width: 100%;
-  background-color: $background-color;
+  background-color: $text-color;
   height: 50px;
   padding: 10px 0 10px 20px;
 
@@ -70,6 +70,10 @@ ul {
   padding-left: 1em;
   text-indent: -0.75em;
   line-height: 1.4em;
+}
+
+li {
+  font-family: $secondary-font;
 }
 
 #index-top {
