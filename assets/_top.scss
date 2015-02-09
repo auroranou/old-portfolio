@@ -1,0 +1,36 @@
+---
+---
+
+@import url(site.scss);
+
+.top {
+  width: 100%;
+  color: $accent-text-color;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;   
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+}
+
+.center {
+  width: 685px;
+  padding: 0 120px 0 130px;
+}
+
+.previous, .next {
+  height: 60px;
+
+  a {
+  	color: $accent-text-color;
+  }
+}

@@ -6,8 +6,13 @@
 @import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 
 /* Variables */
-$head-font: 'Hammersmith One', serif;
-$body-font: 'Josefin Sans', serif;
+$main-font: 'Hammersmith One', sans-serif;
+$secondary-font: 'Josefin Sans', sans-serif;
+$text-color: #171714;
+$accent-text-color: #FFF;
+$link-color: #777;
+$hover-color: #F7322A;
+$background-color: #F7F7F7;
 
 /* Inline Elements & Typography */
 *, *:after, *:before {
@@ -18,9 +23,9 @@ $body-font: 'Josefin Sans', serif;
 
 body {
   width: 100%;
-  font-family: 'Hammersmith One', sans-serif;
-  background-color: #f7f7f7;
-  color: #171714;
+  font-family: $main-font;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 h1, h4 {
@@ -29,22 +34,22 @@ h1, h4 {
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $secondary-font;
   line-height: 1.4em;
 }
 
 a {
-  color: #777;
+  color: $link-color;
   text-decoration: none;
-}
 
-a:hover {
-  color: #F7322A;
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 header{
   width: 100%;
-  background-color: #171714;
+  background-color: $background-color;
   height: 50px;
   padding: 10px 0 10px 20px;
 }
@@ -57,7 +62,7 @@ header h2, header a, header a:hover {
 }
 
 ul {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $main-font;
   list-style: none;
   padding-left: 1em;
   text-indent: -0.75em;
