@@ -1,9 +1,6 @@
 
 $(document).ready(function() {
 	var loc = window.location.hash;
-	// set landing div (class = top) to full window height
-	var height = $(window).height() - 20 + 'px';
-	$('.top').css('height', height);
 
 	// change h1 on hover
 	var intervalID; 
