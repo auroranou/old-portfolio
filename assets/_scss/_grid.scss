@@ -14,7 +14,7 @@ $grid: 1,2,3,4,5,6,7,8,9,10,11,12;
   display: block;
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
   @each $i in $grid {
     .small-#{$i}{
       width: col-width($i);
@@ -22,7 +22,7 @@ $grid: 1,2,3,4,5,6,7,8,9,10,11,12;
   }
 }
 
-@media only screen and (min-width : 481px) {
+@media only screen and (min-width: 481px) {
   @each $i in $grid {
     .med-#{$i}{
       width: col-width($i);
@@ -30,7 +30,7 @@ $grid: 1,2,3,4,5,6,7,8,9,10,11,12;
   }
 }
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
   @each $i in $grid {
     .large-#{$i}{
       width: col-width($i);
