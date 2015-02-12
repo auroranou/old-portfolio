@@ -106,12 +106,12 @@ li { font-family: $secondary-font }
 
 /* Media query for medium screens */
 @media only screen and (max-width: 48em) {
-  h1 { font-size: 1.6em; }
-  h4 { font-size: 0.8em; }
+  h1 { font-size: 1.5em; }
+  h4 { font-size: 0.75em; }
 }
 
 /* Media query for small screens */
 @media only screen and (max-width: 30em) {
-  h1 { font-size: 1.5em; }
-  h4 { font-size: 0.75em; }
+  h1 { font-size: 1.25em; }
+  h4 { font-size: 0.5em; }
 }
