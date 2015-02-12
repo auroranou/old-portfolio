@@ -82,6 +82,21 @@ li { font-family: $secondary-font }
   text-align: center;
 }
 
+#name {
+  animation: ;
+  -webkit-animation: blink 1s infinite;
+}
+
+@keyframes blink,
+@-webkit-keyframes blink {
+  0% {
+    color: $text-color;
+  }
+  50% {
+    color: $link-text-color;
+  }
+}
+
 #civicfix { background-color: #fd4c48; }
 
 #civicfix-pic {
@@ -101,8 +116,6 @@ li { font-family: $secondary-font }
 }
 
 .hidden { display: none; }
-
-.color-change { color: $text-color;}
 
 /* Media query for medium screens */
 @media only screen and (max-width: 48em) {
