@@ -83,7 +83,7 @@ li { font-family: $secondary-font }
 }
 
 #name {
-  animation: ;
+  animation: blink 1s infinite;
   -webkit-animation: blink 1s infinite;
 }
 
