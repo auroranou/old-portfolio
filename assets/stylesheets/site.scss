@@ -83,18 +83,19 @@ li { font-family: $secondary-font }
 }
 
 #name {
-  animation: blink 1s infinite;
-  -webkit-animation: blink 1s infinite;
+  animation: blink 2s linear infinite;
+  -webkit-animation: blink 2s linear infinite;
 }
 
-@keyframes blink,
+@keyframes blink {
+  0% { color: $text-color; }
+  50% { color: $accent-text-color; }
+  100% { color: $text-color; }
+}
 @-webkit-keyframes blink {
-  0% {
-    color: $text-color;
-  }
-  50% {
-    color: $accent-text-color;
-  }
+  0% { color: $text-color; }
+  50% { color: $accent-text-color; }  
+  100% { color: $text-color; }
 }
 
 #civicfix { background-color: #fd4c48; }
