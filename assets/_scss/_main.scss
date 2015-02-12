@@ -24,11 +24,16 @@ $border-color: #DDD;
   margin: 0 0 3em 0;
   padding: 0 1em;
 
-  h2 {
-  	border: none;
-  }
+  h2 { border: none; }
 }
 
-.left {
-  border-right: 1px solid $border-color;
+.left { border-right: 1px solid $border-color; }
+
+/* Media query for medium (and small) screens */
+@media only screen and (max-width: 48em) {
+  .left {
+    border-right: none;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 1em;
+  }
 }

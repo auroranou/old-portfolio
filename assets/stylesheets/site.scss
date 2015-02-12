@@ -32,6 +32,10 @@ body {
   color: $text-color;
 }
 
+h1 { font-size: 2.5em; }
+
+h4 { font-size: 1.25em; }
+
 h1, h4 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
@@ -52,10 +56,8 @@ a {
 }
 
 header{
-  width: 100%;
   background-color: $text-color;
-  height: 50px;
-  padding: 10px 0 10px 20px;
+  padding: 1em 0;
 
   h2, a, a:hover {
     text-transform: uppercase;
@@ -73,41 +75,41 @@ ul {
   line-height: 1.4em;
 }
 
-li {
-  font-family: $secondary-font;
-}
+li { font-family: $secondary-font }
 
 #index-top {
   background-color: #171714;
   text-align: center;
 }
 
-#civicfix {
-  background-color: #fd4c48;
-}
+#civicfix { background-color: #fd4c48; }
 
 #civicfix-pic {
-  max-width: 550px;
+  width: 80%;
   display: block;
   margin: auto;
 }
 
-.resume{
-  margin-bottom: 30px;
+.resume { 
+  margin-bottom: 2em; 
+
+  p { margin-bottom: 0.5em; }
+
+  ul { margin: 0; }
+
+  ul:last-child { margin-bottom: 2em; }
 }
 
-.resume p {
-  margin-bottom: 5px;
+.hidden { display: none; }
+
+/* Media query for medium screens */
+@media only screen and (max-width: 48em) {
+  h1 { font-size: 1.6em; }
+  h4 { font-size: 0.8em; }
 }
 
-.resume ul {
-  margin: 0;
-}
-
-.resume ul:last-child {
-  margin-bottom: 30px;
-}
-
-.hidden {
-  display: none;
+/* Media query for small screens */
+@media only screen and (max-width: 30em) {
+  h1 { font-size: 1.5em; }
+  h4 { font-size: 0.75em; }
 }
