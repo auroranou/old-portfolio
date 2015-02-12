@@ -29,7 +29,7 @@ $accent-text-color: #FFF;
 /* Media query for medium screens */
 @media only screen and (max-width: 48em) {
   .top {
-    height: 60vh;
+    height: 70vh;
   }
 
   .fa.fa-chevron-left, .fa.fa-chevron-right {
@@ -40,7 +40,7 @@ $accent-text-color: #FFF;
 /* Media query for small screens */
 @media only screen and (max-width: 30em) {
   .top {
-    height: 40vh;
+    height: 60vh;
   }
 
   .fa.fa-chevron-left, .fa.fa-chevron-right {
