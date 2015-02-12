@@ -78,7 +78,7 @@ ul {
 li { font-family: $secondary-font }
 
 #index-top {
-  background-color: #171714;
+  background-color: $text-color;
   text-align: center;
 }
 
@@ -101,6 +101,8 @@ li { font-family: $secondary-font }
 }
 
 .hidden { display: none; }
+
+.color-change { color: $text-color;}
 
 /* Media query for medium screens */
 @media only screen and (max-width: 48em) {
