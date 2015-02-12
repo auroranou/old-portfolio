@@ -87,7 +87,9 @@ li {
 }
 
 #civicfix-pic {
-  width: 685px;
+  max-width: 580px;
+  display: block;
+  margin: auto;
 }
 
 .resume{
