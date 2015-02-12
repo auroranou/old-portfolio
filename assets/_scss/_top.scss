@@ -20,15 +20,9 @@ $accent-text-color: #FFF;
   justify-content: space-around;
 }
 
-.center {
-  width: 685px;
-  padding: 0 120px 0 130px;
-}
-
-.previous, .next {
-  height: 60px;
-
-  a {
-  	color: $accent-text-color;
-  }
+.fa.fa-chevron-left, .fa.fa-chevron-right {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+	color: $accent-text-color;
 }

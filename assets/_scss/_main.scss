@@ -1,41 +1,29 @@
 $border-color: #DDD;
 
 .main {
-  width: 660px;
-  margin: auto;
-  padding: 40px 0;
+  padding-top: 2em;
 
   h2 {
-	  margin: 0 0 10px 0;
-	  padding-bottom: 5px;
+	  margin: 0 0 1em 0;
+	  padding-bottom: 0.5em;
 	  border-bottom: 1px solid $border-color;
   }
 }
 
-.colleft {
-  width: 400px;
-  float: left;
-  margin: 0 0 40px 0;
-  padding-right: 20px;
+.center {
+  float: none;
+  margin: auto;
+}
+
+.left, .right {
+  margin: 0 0 3em 0;
+  padding: 0 1em;
+
+  h2 {
+  	border: none;
+  }
+}
+
+.left {
   border-right: 1px solid $border-color;
-
-  h2 {
-  	border: none;
-  }
-}
-
-.colright {
-  width: 220px;
-  float: left;
-  margin: 0 0 40px 0;
-  padding-left: 20px;
-
-  h2 {
-  	border: none;
-  }
-}
-
-.colthird {
-	width: 220px;
-	float: left;
 }
