@@ -33,7 +33,6 @@ body {
 }
 
 h1 { font-size: 2.5em; }
-
 h4 { font-size: 1.25em; }
 
 h1, h4 {
@@ -49,7 +48,6 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
-
   &:hover {
     color: $hover-color;
   }
@@ -58,7 +56,6 @@ a {
 header{
   background-color: $text-color;
   padding: 1em 0;
-
   h2, a, a:hover {
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -73,9 +70,9 @@ ul {
   padding-left: 1em;
   text-indent: -0.75em;
   line-height: 1.4em;
+  li { font-family: $secondary-font }
 }
 
-li { font-family: $secondary-font }
 
 #index-top {
   background-color: $text-color;
@@ -99,10 +96,8 @@ li { font-family: $secondary-font }
 }
 
 #civicfix { background-color: #fd4c48; }
-
 #readride { background-color: #3A83EE; }
-
-#longreads { background-color: #00CA4E; }
+#longreads { background-color: #13b759; }
 
 #civicfix-pic, #readride-pic, #longreads-pic {
   width: 80%;
@@ -112,11 +107,8 @@ li { font-family: $secondary-font }
 
 .resume { 
   margin-bottom: 2em; 
-
   p { margin-bottom: 0.5em; }
-
   ul { margin: 0; }
-
   ul:last-child { margin-bottom: 2em; }
 }
 
