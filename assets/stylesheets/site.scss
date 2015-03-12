@@ -73,7 +73,6 @@ ul {
   li { font-family: $secondary-font }
 }
 
-
 #index-top {
   background-color: $text-color;
   text-align: center;
@@ -98,8 +97,9 @@ ul {
 #civicfix { background-color: #fd4c48; }
 #readride { background-color: #3A83EE; }
 #longreads { background-color: #13b759; }
+#twittergame { background-color: #8787C7;}
 
-#civicfix-pic, #readride-pic, #longreads-pic {
+#civicfix-pic, #readride-pic, #longreads-pic, #twittergame-pic {
   width: 80%;
   display: block;
   margin: auto;
