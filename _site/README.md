@@ -1,4 +1,4 @@
 aurorayes.com
 =============
 
-New repo for personal website. Powered by Jekyll, etc.
+New repo for personal website. Powered by Jekyll.
