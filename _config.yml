@@ -1,7 +1,8 @@
 auto: true
 server: true
-baseurl:
+baseurl: ""
 permalink: /:title
 sass:
   sass_dir: assets/_scss
   style: compressed
+markdown: kramdown
