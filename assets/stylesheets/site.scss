@@ -90,7 +90,7 @@ ul {
 }
 @-webkit-keyframes blink {
   0% { color: $text-color; }
-  50% { color: $accent-text-color; }  
+  50% { color: $accent-text-color; }
   100% { color: $text-color; }
 }
 
@@ -105,8 +105,8 @@ ul {
   margin: auto;
 }
 
-.resume { 
-  margin-bottom: 2em; 
+.resume {
+  margin-bottom: 2em;
   p { margin-bottom: 0.5em; }
   ul { margin: 0; }
   ul:last-child { margin-bottom: 2em; }
