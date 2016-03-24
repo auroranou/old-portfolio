@@ -1,0 +1,39 @@
+$border-color: #DDD;
+
+.main {
+  padding-top: 2em;
+
+  h2 {
+	  margin: 0 0 1em 0;
+	  padding-bottom: 0.5em;
+	  border-bottom: 1px solid $border-color;
+    clear: both;
+  }
+
+  .fa {
+    font-size: 0.75em;
+  }
+}
+
+.center {
+  float: none;
+  margin: auto;
+}
+
+.left, .right {
+  margin: 0 0 3em 0;
+  padding: 0 1em;
+
+  h2 { border: none; }
+}
+
+.left { border-right: 1px solid $border-color; }
+
+/* Media query for medium (and small) screens */
+@media only screen and (max-width: 48em) {
+  .left {
+    border-right: none;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 1em;
+  }
+}

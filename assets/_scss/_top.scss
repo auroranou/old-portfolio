@@ -1,0 +1,49 @@
+$accent-text-color: #FFF;
+
+.top {
+  height: 80vh;
+  color: $accent-text-color;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;   
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+}
+
+.fa.fa-chevron-left, .fa.fa-chevron-right {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+	color: $accent-text-color;
+}
+
+/* Media query for medium screens */
+@media only screen and (max-width: 48em) {
+  .top {
+    height: 70vh;
+  }
+
+  .fa.fa-chevron-left, .fa.fa-chevron-right {
+    font-size: 2em;
+  }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 30em) {
+  .top {
+    height: 60vh;
+  }
+
+  .fa.fa-chevron-left, .fa.fa-chevron-right {
+    font-size: 1em;
+  }
+}
