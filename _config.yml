@@ -1,6 +1,6 @@
 auto: true
 server: true
-baseurl: ""
+baseurl: "/old-portfolio"
 permalink: /:title
 sass:
   sass_dir: assets/_scss
