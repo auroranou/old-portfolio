@@ -1,7 +1,7 @@
 auto: true
 server: true
-baseurl: "/old-portfolio"
-permalink: /:title
+baseurl: /old-portfolio
+permalink: /old-portfolio/:title
 sass:
   sass_dir: assets/_scss
   style: compressed
